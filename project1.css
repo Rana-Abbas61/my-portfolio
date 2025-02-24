@@ -1,0 +1,730 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* section1 */
+#header{
+    background:#727CB6;
+    height: 40px;
+    position: fixed;
+    z-index: 2000;
+}
+#sec1{
+    font-size:15px;
+    padding-left: 2px;
+}
+#sec11{
+    
+    
+    margin-top:-10px;
+    
+}
+.sec12{
+    
+    font-size:15px;
+
+}
+#sec13{
+    
+    font-size:15px;
+
+}
+a:hover{
+    background-color: #727CB6;
+    color: white;
+    border: 2px solid white;
+    transition: 2s;
+}
+/* sec1 end */
+
+/* section2 */
+#background{
+    background-image: url(head-3-new1.png);
+}
+#back2{
+    width: 100%;
+    position: fixed;
+    z-index: 2000;
+    margin-top: 40px;
+    background-color:rgba(64,73,81, 0.3);
+    opacity:4;
+}
+#logo{
+    height:30px;   
+}
+#noti{
+    position: absolute;
+    top:12px;
+    right:-15px;
+    background-color:#727CB6;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 11px;
+    line-height:18px;
+    border: 1px solid white;  
+}
+
+#next1{
+    margin-top: 65px;
+   margin-right:0px;
+
+ }
+ #prev1{
+    margin-left: 370px;
+    margin-top: 65px;
+    
+    
+ }
+
+ 
+  .swiper-button-next:after, .swiper-button-prev:after {
+   
+     font-size: 20px !important;
+     color:black;
+     
+    
+ } 
+.nav-item{
+    font-size: 17px;  
+}
+#heading{
+    width:fit-content !important;
+}
+#subheading{
+    width: fit-content;
+
+}
+.btn{
+    font-size: 18px;  
+}
+#navbar{
+    gap:4px;
+}
+
+
+
+ /* .nav-link { */
+    /* display: block; */
+    /* padding: 0rem 0rem !important;  */
+    /* color: #0d6efd;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;} */
+
+#row{
+    padding: 12px 22px;
+}
+
+.badge{
+    margin-left:-55px;
+    
+
+}
+main{
+    position: relative;
+    /* overflow: hidden; */
+    transition: 1s;
+}
+.slide{
+    height:245px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+}
+/* section3 */
+#sec3{
+    margin-left:90px ;
+    margin-right:80px ;
+}
+#sec31{
+    font-weight:normal;
+    color:#555555;
+    text-align: center;
+}
+#sec32{
+    /* margin-left:160px;
+    margin-right:160px ; */
+    text-align: center;
+    color:#ACACAC;
+     font-size:28px;
+     font-weight:40;
+}
+#card{
+    margin-top: 100px;
+    margin-bottom:60px;
+}
+.service-icon {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #b9b9b9;
+    text-align: center;
+    line-height: 100px;
+    font-size: 40px;
+    background: #fff;
+    transform: rotate(-45deg);
+    margin: -75px auto -20px;
+}
+.card:hover .service-icon{
+    background: #727CB6;
+    color: white;
+}
+#asia{
+    transform: rotate(50deg);
+    font-size: 30px;
+    padding-bottom:55px;
+    padding-right:53px;
+
+}
+#mbl{
+    transform: rotate(44deg);
+    font-size: 32px;
+    padding-bottom:60px;
+    padding-right:53px;
+    
+}
+#twitter{
+    transform: rotate(44deg);
+    font-size: 32px;
+    padding-bottom:65px;
+    padding-right:50px;
+}
+#h5{
+    display: flex;
+    justify-content: center;
+
+}
+#h5::after{
+    content: '';
+    text-align: center;
+    background:#D4D5D4;
+    margin-top:10px;
+    height: 2px;
+    width:25%;
+    position:absolute;
+    /* bottom: 0;
+    left: 0; */
+}
+#h5::before{
+    content: '';
+    text-align: center;
+    background:#D4D5D4;
+    margin-top:15px;
+    height: 2px;
+    width:25%;
+    position:absolute;
+    /* bottom: 0;
+    left: 0; */
+}
+#animate-right{
+    animation: right 1s ease;
+}
+@keyframes right{
+    from{
+        transform: translate(100%);
+    }
+    to{
+        transform: translate(0);
+    }
+}
+
+/* section4 */
+#btnjs0{
+    position: relative;
+}
+#next2{
+     
+    position: absolute;
+    right:40px;    
+}
+#prev2{
+    position: absolute;
+    left:84%;
+}
+#port1{
+    width:100%;
+    height:auto;
+}
+.transparent-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:90%;
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent box with black overlay */
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+.bordered-box {
+    position: absolute;
+    top:45%;
+    left:50%;
+    right:-20%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: transparent;
+    border: 1px solid white; /* Solid white border */
+    color:white;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+.bordered-box i {
+    font-size: 24px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.swiper-slide:hover .transparent-box {
+    opacity: 1;
+    visibility: visible;
+}
+
+.swiper-slide:hover .bordered-box {
+    opacity: 1;
+    visibility: visible;
+}
+.swiper-pagination-bullet {
+  height:15px !important;
+  width:15px !important;
+  background-color: white !important;
+    
+}
+/* section5 */
+#fluid{
+    background: url(10.jpg);
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#sec5{
+    padding-left:145px ;
+    padding-right:145px ;
+
+}
+#sec51{
+    font-size:25px;
+    text-align: center;
+    padding-left:148px;
+    padding-right:148px;
+
+}
+/* section6 */
+.animate-left {
+    animation: slideInLeft 1s ease-out;
+  }
+
+  .animate-right {
+    animation: slideInRight 1s ease-out;
+  }
+
+  @keyframes slideInLeft {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideInRight {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+/* section7 */
+#sec71 {
+    display: flex;
+    
+}
+
+#sec72 {
+    position: relative;
+    overflow: hidden;
+    height: 300px; /* Adjust the height of the card */
+    transition: transform 0.3s ease-in-out; /* Optional: Zoom effect on hover */
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Card Content - containing both heading and paragraph */
+.card-content {
+    position: absolute;
+    bottom: 0; /* Initially at the bottom, both heading and paragraph */
+    left: 0;
+    width: 100%;
+    background: rgba(114, 124, 182, 0.7); /* Transparent background for both heading and paragraph */
+    color: white;
+    text-align: center;
+    transition: bottom 0.5s ease; /* Slide effect for paragraph */
+}
+
+/* Card Title (Heading) Styling */
+.card-title {
+    padding: 10px;
+    z-index: 1; /* Ensure the heading stays on top */
+}
+
+/* Card Paragraph Styling */
+.card-paragraph {
+    padding: 15px;
+    z-index: 0; /* Ensure the paragraph stays behind the heading */
+    display: none; /* Initially hide the paragraph */
+}
+
+/* Hover effect for the card */
+.card:hover .card-paragraph {
+    display: block; /* Show paragraph on hover */
+    animation: slideUp 0.5s forwards; /* Slide up animation */
+}
+
+/* Slide Up Animation */
+@keyframes slideUp {
+    0% {
+        bottom: -100%; /* Initially hidden */
+    }
+    100% {
+        bottom: 0; /* Slide up to the top */
+    }
+}
+
+/* Optional: Zoom effect on hover for the image */
+.card:hover img {
+    transform: scale(1.1); /* Slight zoom effect */
+}
+
+ 
+/* responsive section7 */
+ .card-title {
+    position: relative;
+}
+
+.hover-text {
+    position: absolute;
+    bottom:-20px; /* Initially position the text outside the card */
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.5); /* Transparent background */
+    color: white;
+    
+    border-radius: 5px;
+    width:90%; /* Adjust the width of the text box */
+    text-align: center;
+    opacity: 0; /* Initially hide the text */
+    transition: all 0.5s ease; /* Smooth transition for animation */
+}
+
+/* When hovering over the h5, show the text */
+.card-title:hover .hover-text {
+    bottom: 10px; /* Move text upwards */
+    opacity: 1; /* Make text visible */
+}
+
+/* Styling the h5 */
+.card-title h5 {
+    font-size: 1.2rem;
+    margin:0px;
+}
+
+/* section8 */
+
+#sec81{
+    padding-left:180px ;
+    padding-right:180px ;
+    padding-bottom: 40px;
+
+}
+/* section9 */
+#btn1{
+    
+    height: 53px;
+}
+#btn{
+    display: flex;
+    justify-content: end;
+}
+#animate-top{
+    animation: top 1s ease;
+}
+@keyframes top{
+    from{
+        transform: translateY(100%);
+    }
+    to{
+        transform: translateY(0%);
+    }
+}
+/* section10 */
+
+#prog{
+    background:#323A45;
+}
+#prog1{
+    width:12%;
+    height:1px;
+    margin-top:2px;
+    background:#727CB6;
+
+}
+#prog2{
+    width:26%;
+    height:4px;
+    background:#727CB6;
+
+}
+#prog3{
+    width:12%;
+    height:1px;
+    margin-top:2px;
+    background:#727CB6;
+
+}
+#prog4{
+    width:100%;
+    height:1px;
+    margin-top:2px;
+    background:#D4D5D4;
+
+}
+/* section11 */
+#sec11{
+    /* padding-left:180px ;
+    padding-right:180px ; */
+
+}
+
+
+ 
+
+.btn:hover{
+    background:  #727CB6;
+}
+.progress-bar:hover{
+    background:#353D46 !important;
+   
+}
+.fa-solid:hover{
+    background:#353D46 ;
+}
+.card-footer{
+    background: #727CB6;
+    width: 100%;
+}
+.team-info{
+    color:dark;
+    margin-bottom: 23px;
+    margin-top: 5px;
+    /* font-size: 16px;
+    text-transform: capitalize; */
+}
+/* responsive section3 */
+@media(max-width:991px){
+     #card{
+       
+        margin-bottom:1px;
+    }
+}
+@media only screen and (min-width:576px) and (max-width:767px){
+    #sec31{
+        margin-top: 20px;
+        font-size: 27px;
+        font-weight:normal;
+        color:#555555;   
+    }
+    #sec32{
+      
+        text-align:start;
+        color:#ACACAC;
+        font-size:24px;
+        font-weight:40;
+    }
+    
+
+}
+
+    
+@media only screen and (max-width:1199px){
+    
+    #heading{
+        width: 70%;
+    }
+    
+    #navbar{
+        gap:0px;
+        
+    }
+    .badge{
+        margin-left:-132px;
+    }
+    }
+@media only screen and (max-width:991px){
+    #heading{
+        width: 90%;
+    }
+
+    .badge{
+        margin-left:-132px;
+    }
+   
+    
+    
+    #sec51{ 
+        font-size:27px;
+        text-align: center;
+        padding-left:90px;
+        padding-right:90px;
+
+}
+
+#say{
+    margin-top: 40px;
+}
+#sec11{
+    
+    display: flex;
+    float: inline-end;
+}
+#sec21{
+    margin-left: 250px;
+}
+
+}
+@media only screen and (max-width:767px){
+    
+    #sec51{
+        font-size:24px;
+        text-align: center;
+        padding-left:1px;
+        padding-right:1px;
+
+}
+#btn1{
+    width: 100%;
+}  
+}
+@media only screen and (max-width:575px){
+    .sec12{
+        font-size:13px;
+    }
+    #logo{
+        height:30px; 
+      
+    }
+    #heading{
+        font-size:15px;
+    }
+    #subheading{
+        width: fit-content !important;
+        font-size:10px;
+    }
+    #button{
+        font-size: 12px;
+    }
+    #sec13{
+        font-size: 13px;
+    }
+    #sec31{
+        text-align:justify;
+        font-size: 15px;
+        
+    }
+    #sec32{
+        text-align:justify;
+        font-size:13px;
+    }
+    #recent{
+        font-size: 15px;
+    }
+    #sec4{
+        font-size: 13px;
+    }
+    #sec51{
+        text-align: justify;
+        font-size: 13px;
+    }
+    #sec52{
+        font-size:13px;
+    }
+    #sec53{
+        font-size: 15px;
+    }
+    #sec54{
+        font-size: 13px;
+    }
+    #sec55{
+        font-size: 13px;
+    }
+    #sec6{
+        font-size: 15px;
+        text-align:justify;
+    }
+    #sec61{
+        font-size: 13px;
+        text-align: justify;
+    }
+    #sec62{
+        font-size: 14px;
+       
+    }
+    #say{
+        font-size: 15px;
+    }
+    #sec7{
+        font-size: 15px;
+    }
+    #sec7{
+        font-size: 15px;
+    }
+    #sec8{
+        font-size: 15px;
+    }
+    #sec9{
+        font-size: 15px;
+    }
+    #sec91{
+        font-size: 13px;
+    }
+    #btn1{
+        font-size: 13px;
+    }
+    #sec10{
+        font-size: 15px;
+    }
+    #img-fluid{
+        margin-bottom:40px;
+        
+    }
+    
+    #copy{
+        font-size:12px;
+    }
+    #icon{
+        margin-top:-15px;
+        margin-left:-30px;
+        
+    }
+}
+    
+   
+
+
+
+
+
+      
+
